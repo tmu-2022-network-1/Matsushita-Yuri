@@ -19,6 +19,7 @@
 }
 .parallax_layerback {
   transform: translateZ(-0.5px);
+  
 }
 
 .parallax_layerfront {
@@ -34,4 +35,8 @@
 
 #gazou {
   width: 100%;
+}
+
+#space {
+  height: 100px;
 }
