@@ -15,15 +15,17 @@
   padding: 0px 0;
 }
 .parallax_layerbase {
-  transform: translateZ(0);
+  transform: translateZ(-1.5px);
+  
 }
 .parallax_layerback {
-  transform: translateZ(-0.5px);
+  transform: translateZ(-1px);
   
 }
 
 .parallax_layerfront {
-  transform: translateZ(-1px);
+  transform: translateZ(-0.3px);
+  
 }
 
 .title {
@@ -38,5 +40,5 @@
 }
 
 #space {
-  height: 100px;
+  height: 0px;
 }
