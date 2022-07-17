@@ -14,17 +14,18 @@
   left: 0;
   padding: 0px 0;
 }
-.parallax_layerbase {
-  transform: translateZ(-1.5px);
-  
-}
-.parallax_layerback {
-  transform: translateZ(-1px);
+
+.parallax_layerfront {
+  transform: translateZ(-0.5px);
   
 }
 
-.parallax_layerfront {
-  transform: translateZ(-0.3px);
+.parallax_layerbase {
+  transform: translateZ(-1px);
+  
+}
+.parallax_layerback {
+  transform: translateZ(-1.5px);
   
 }
 
